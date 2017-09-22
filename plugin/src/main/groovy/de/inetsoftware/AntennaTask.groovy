@@ -1,4 +1,4 @@
-package wang.dannyhe.tools
+package de.inetsoftware
 
 import groovy.io.FileType
 import org.gradle.api.DefaultTask
@@ -9,7 +9,7 @@ import antenna.preprocessor.PreprocessorException
 import antenna.preprocessor.IPreprocessor
 import org.gradle.api.tasks.*;
 
-public class PreprocessorTask extends DefaultTask {
+public class AntennaTask extends DefaultTask {
 
     File sourceDir
     File targetDir
